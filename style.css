@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202123;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container central */
+.profile-container {
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Cartão de perfil */
+.profile-card {
+  background-color: #2a2b2d;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid #3c3d3f;
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  border-color: #10a37f;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section h2 {
+  color: #10a37f;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.section p,
+.section ul {
+  color: #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
